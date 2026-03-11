@@ -2,12 +2,16 @@ nav > ul{
     display:flex;
 }
 
+
+
 nav  li  {
      list-style: none;
      padding:10px;
      text-align: center; 
     background-color:teal;
     padding:30px;
+    border-radius:50px;
+    margin:10px;
     
     
 }
@@ -41,4 +45,11 @@ nav li:hover .dropdown{
     display:block;
     
 
+}
+
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:10px;
+    text-align:center
 }
